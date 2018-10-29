@@ -33,3 +33,15 @@ let gente = [{
         edad: 10
     },
 ]
+
+console.log("Nombres que empiezan por J");
+
+let empiezan_j = [];
+for (let persona of gente){
+    if (persona.nombre.startsWith('J')){
+        empiezan_j.push(persona);
+    }
+}
+
+
+    console.log(empiezan_j);

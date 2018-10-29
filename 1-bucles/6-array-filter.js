@@ -31,5 +31,13 @@ let gente = [{
         nombre: 'Jenny',
         edad: 10
     },
-]
+];
 
+//console.log("Nombres que contienen 4 dígitos");
+
+
+    let filtrar = gente.filter(function(persona){
+    return persona.nombre.length===4;
+    };
+
+console.log(filtrar);

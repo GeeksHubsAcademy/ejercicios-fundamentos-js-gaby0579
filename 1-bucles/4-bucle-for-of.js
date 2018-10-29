@@ -1,4 +1,4 @@
-// ej 4
+﻿// ej 4
 // crea un array con la gente mayor de 25 años.
 // y muéstralo por consola.
 // Sin utilizar el método filter de los arrays
@@ -33,3 +33,14 @@ let gente = [{
         edad: 10
     },
 ]
+
+console.log("Personas mayores de 25");
+
+let mayores25 = [];
+for (let persona of gente){
+    if (persona.edad > 25) {
+        mayores25.push(persona);
+    }
+}
+
+console.log(mayores25);

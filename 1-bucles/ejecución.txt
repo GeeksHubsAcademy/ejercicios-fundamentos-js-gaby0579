@@ -1,0 +1,3 @@
+node ./1-bucles/1-bucle-for.js
+
+hacemos ejercicio 1 parte 1 y 2
