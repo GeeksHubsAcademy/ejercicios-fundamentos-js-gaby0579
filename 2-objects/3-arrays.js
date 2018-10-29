@@ -11,7 +11,7 @@ var arr = [
     //posición 1 objeto
     {name: "pepito",age: 2},
     //posición 2 objeto
-    {name:"J"}];
+    {name:"J", age:1}];
     //array tamaño 3 registros
 
 // Hasta aquí
@@ -59,14 +59,13 @@ if (arr[0].name === arr[1].name) {
     console.log('suspendes');
 }
 
-/*
+
 // TEST 7
 if (arr[1].name === 'pepito') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-
 
 // TEST 8
 if (arr[1].age > arr[2].age) {
@@ -93,5 +92,3 @@ if (arr[2].name[0] === 'J') {
 } else {
     console.log('suspendes');
 }
-
-*/
