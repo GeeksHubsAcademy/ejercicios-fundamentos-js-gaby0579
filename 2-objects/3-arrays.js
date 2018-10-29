@@ -5,10 +5,14 @@
 
 
 // Aquí tu código
-var arr = [pepito=[1],pepito=[2],objeto3=[3]];
-
-
-
+var arr = [
+    //posición 0 objeto
+    {name: "pepito", age: 25},
+    //posición 1 objeto
+    {name: "pepito",age: 2},
+    //posición 2 objeto
+    {name:"J"}];
+    //array tamaño 3 registros
 
 // Hasta aquí
 

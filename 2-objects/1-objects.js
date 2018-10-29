@@ -1,18 +1,16 @@
-////////////////////////////// 
+//////////////////////////////
 //  1
 //  Crea un objecto en la variable ordenador
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
 
-
 // Aquí tu código
+
 var ordenador = {
-    marca: 'La pava',
-    tipo: 'portátil',
-    perifericos: ['raton','touchPad'],
-    almacenmiento: ['discos':['USB','HDD']],
-
-    };
-
+    marca: "La pava",
+    tipo: "portátil",
+    perifericos: ["","touchPad"],
+        almacenamiento: {discos: ["SSD","HDD"], maestro: 0},
+};
 
 // Hasta aquí
 
@@ -22,45 +20,36 @@ if (typeof ordenador === 'object') {
 } else {
     console.log('suspendes');
 }
-
 // TEST 2
 if (ordenador.marca === 'La pava') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-
 // TEST 3
 if (ordenador.tipo === 'portátil') {
-
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-
 // TEST 4
 if (ordenador.perifericos[1] === 'touchPad') {
-
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-/*
-
 // TEST 5
 if (ordenador['almacenamiento']['discos'][1] === 'HDD') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-
 // TEST 6
 if (ordenador.almacenamiento.maestro === 0) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-
 // TEST 7
 if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD') {
     console.log('apruebas');
@@ -68,5 +57,3 @@ if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD
 } else {
     console.log('suspendes');
 }
-
-*/

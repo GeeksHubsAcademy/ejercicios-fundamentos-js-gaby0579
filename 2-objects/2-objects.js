@@ -6,8 +6,15 @@
 
 // Aquí tu código
 
-var obj = [a:b=true]
-;
+var obj = {
+    a: {
+        b: true,
+        c: ["",1],
+    },
+    d: 6,
+    f: "abcd",
+
+}
 
 // Hasta aquí
 
@@ -26,7 +33,7 @@ if (typeof obj.a.b === 'boolean') {
     console.log('suspendes');
 }
 
-/*
+
 
 // TEST 3
 if (typeof obj.a.c[1] === 'number') {
@@ -59,4 +66,3 @@ if ( obj.f.length === 4) {
 } else {
     console.log('suspendes');
 }
-*/
