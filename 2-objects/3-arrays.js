@@ -5,6 +5,9 @@
 
 
 // Aquí tu código
+var arr = [pepito=[1],pepito=[2],objeto3=[3]];
+
+
 
 
 // Hasta aquí
@@ -15,30 +18,36 @@ if (typeof arr === 'object' && arr.length >= 0) {
 } else {
     console.log('suspendes');
 }
+
 // TEST 2
 if (typeof arr[0] === 'object') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
+
 // TEST 3
 if (typeof arr[1] === 'object') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
+
+
 // TEST 4
 if (typeof arr[2] === 'object') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
+
 // TEST 5
 if (arr.length === 3) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
+
 // TEST 6
 if (arr[0].name === arr[1].name) {
     console.log('apruebas');
@@ -46,35 +55,39 @@ if (arr[0].name === arr[1].name) {
     console.log('suspendes');
 }
 
-// TEST 6
+/*
+// TEST 7
 if (arr[1].name === 'pepito') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
 
-// TEST 7
+
+// TEST 8
 if (arr[1].age > arr[2].age) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-// TEST 8
+// TEST 9
 if (arr[0].age === 25) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-// TEST 9
+// TEST 10
 if (typeof arr[2].name === 'string') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
 
-// TEST 10
+// TEST 11
 if (arr[2].name[0] === 'J') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
+
+*/

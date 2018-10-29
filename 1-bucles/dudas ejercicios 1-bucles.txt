@@ -1,9 +1,6 @@
-*4-bucle-for-of - no consigo que funcione con for of y uso for in.
-
-*5-bucle-for-of - lo mismo que el 4.
-
 *6-array-filter.js - no me funciona
 
 *7-array-filter.js - cuando funcione el 6 sabré como hacer que funcione el 7.
 
 *9-array-bidimensional.js - no me ha funcionado
+

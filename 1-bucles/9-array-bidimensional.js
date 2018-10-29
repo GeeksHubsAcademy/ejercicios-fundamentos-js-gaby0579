@@ -1,4 +1,3 @@
-
 // ej 9
 // Rellena la matriz como la siguiente utilizando bucles for anidados
 // let matriz = [
@@ -9,17 +8,18 @@
 
 let matriz = [];
 
-for (i = 0; i <= 10; i++) {
-        matriz.push([i]);
-    }
-
-
-for (a = 0; a <=10; a++) {
-    console.log(matriz);
-}
-
-for (var i in matriz) {
-    for (var j in matriz[i]) {
-        console.log(matriz[i][j]);
+function crear(filas,columnas){
+    for(var i = 0; i < filas; i++) {
+        matriz.push([]);
+        for (var dj = 0; dj < columnas; dj++) {
+            matriz[i].push([]);
+        }
+        for (var j = 0; j < columnas; j++) {
+            matriz[i][j].push(i.toString() + j);
+        }
     }
 }
+
+crear(8,4);
+
+console.log(matriz);

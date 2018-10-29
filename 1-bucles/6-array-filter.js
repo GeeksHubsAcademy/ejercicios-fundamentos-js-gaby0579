@@ -33,11 +33,8 @@ let gente = [{
     },
 ];
 
-//console.log("Nombres que contienen 4 dígitos");
+console.log("Nombres que contienen 4 dígitos");
 
 
-    let filtrar = gente.filter(function(persona){
-    return persona.nombre.length===4;
-    };
-
-console.log(filtrar);
+  const result = gente.filter(palabra=> (palabra.nombre.length===4));
+  console.log(result);

@@ -35,3 +35,8 @@ let gente = [{
     },
 ]
 
+console.log("Personas menores de 40 y nombre empieza por J");
+
+const result = gente.filter(palabra=> (palabra.edad<40) && palabra.nombre.startsWith('J'));
+
+console.log(result);
