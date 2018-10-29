@@ -1,1 +1,3 @@
-No me funciona bien ninguno
+1-objects.js - no entiendo lo de 
+if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD')
+
